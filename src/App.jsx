@@ -2,33 +2,63 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Prueba from './componentes/poliglota/level1/Prueba'
+import ListaPrincipal from './componentes/poliglota/level1/ListaPrincipal'
+import useStore from './componentes/Zustand/State'
+
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const {lista, add, removeItem } = useStore()
+  console.log(lista)
+  const [element, setElement] = useState('')
+  console.log(element)
+  const [respuesta, setRespuesta] = useState('')
+
+
+  let r
+  function randomN( min,max ) {
+    r = Math.floor(Math.random() * (max - min + 1)) + min;    
+    return r
+  }
+
+  const getRandomElement = () => {
+    let n1 = randomN(0, lista.length-1)
+    console.log(n1)
+    let n2 = randomN(0, lista[n1].length-1)
+    console.log(n2)
+    let n3 = lista[n1][n2]
+    console.log(n1,n2,n3)
+    setElement(n3)
+  }
+
+  
 
   return (
-    <>
+    <div className='flex bg-slate-300 h-screen justify-around items-center c' >  
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div>
+          <button 
+            className='bg-amber-400' 
+            onClick={ getRandomElement } >random question
+            
+          </button>
+
+          <p> { element.length > 0 ? element[0] : "" } </p>
+          <div className='pt-5' >
+            <button onClick={()=>setRespuesta(element[1])} className='bg-teal-600 px-2 rounded-sm text-blue-950' >show answer</button>
+            <p>{respuesta}</p>
+          </div>
+        </div>
+      </div>    
+      <div>
+        <Prueba texto={'Lugares'} list={ListaPrincipal.lugares}> texto  </Prueba>      
+        <Prueba texto={"condicionales"} list={ListaPrincipal.condicionales} ></Prueba>      
+        <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
