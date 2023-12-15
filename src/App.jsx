@@ -12,36 +12,51 @@ import useStore from './componentes/Zustand/State'
 function App() {
 
   const {lista, add, removeItem } = useStore()
+  console.log(lista)
+  const [element, setElement] = useState('')
+  console.log(element)
+  const [respuesta, setRespuesta] = useState('')
+
 
   let r
   function randomN( min,max ) {
-    r = Math.floor(Math.random() * (max - min + 1)) + min;
-    console.log(r)    
-    console.log(lista[r][r][0])
-    console.log(lista)
-    
+    r = Math.floor(Math.random() * (max - min + 1)) + min;    
     return r
-
   }
+
+  const getRandomElement = () => {
+    let n1 = randomN(0, lista.length-1)
+    console.log(n1)
+    let n2 = randomN(0, lista[n1].length-1)
+    console.log(n2)
+    let n3 = lista[n1][n2]
+    console.log(n1,n2,n3)
+    setElement(n3)
+  }
+
   
 
   return (
-    <div className='flex bg-slate-300 h-screen justify-around items-center' >  
+    <div className='flex bg-slate-300 h-screen justify-around items-center c' >  
       <div>
         <div>
           <button 
             className='bg-amber-400' 
-            onClick={()=>randomN(0, lista.length -1)} >random question
+            onClick={ getRandomElement } >random question
             
           </button>
 
-          <p> { r !== 0 ? r : "" } </p>
+          <p> { element.length > 0 ? element[0] : "" } </p>
+          <div className='pt-5' >
+            <button onClick={()=>setRespuesta(element[1])} className='bg-teal-600 px-2 rounded-sm text-blue-950' >show answer</button>
+            <p>{respuesta}</p>
+          </div>
         </div>
       </div>    
       <div>
-        <Prueba texto={'articulos'} list={ListaPrincipal.articulos}> texto  </Prueba>      
-        <Prueba texto={"verbos"} list={ListaPrincipal.verbos} ></Prueba>      
-
+        <Prueba texto={'Lugares'} list={ListaPrincipal.lugares}> texto  </Prueba>      
+        <Prueba texto={"condicionales"} list={ListaPrincipal.condicionales} ></Prueba>      
+        <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
       </div>
     </div>
   )

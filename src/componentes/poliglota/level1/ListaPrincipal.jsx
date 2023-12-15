@@ -1,14 +1,11 @@
-import React from 'react'
+import test from "./ExportTest"
+import lugares from "../Listas/Lugares"
+import condicionales from "../Listas/condicionales"
 
 const ListaPrincipal = {  
-  articulos:[ 
-    [ "agua", "Water"], 
-    ["El", "The"]
-    ],
-  verbos : [
-    ["hermano", "brother"],
-    ["Normalmente ", "usually"]
-  ]
+  lugares: lugares ,
+  condicionales: condicionales,
+  teste: test
 }
 
 export default ListaPrincipal
