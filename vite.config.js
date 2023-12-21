@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: './docs',
   },
-  base: '/english-school/'
+  base: '/english-school/',
   plugins: [react()],
 })
