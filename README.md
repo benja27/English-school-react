@@ -113,11 +113,20 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+1. If you want to use the web version go to `https://benja27.github.io/English-school-react/`,
+otherwise, to run the project, execute the following command:
 
 ```sh
   npm run dev
 ```
+
+2. If you preferred to use the web version skip this step, otherwise, open you browser and go to `http://localhost:5173/`
+
+3. You will be able to see a series of English lessons and exercise.
+4. Click on a lesson to view its content and follow the instructions.
+5. Complete the proposed exercises and verify your answers.
+6. Move on to the next lesson when you feel comfortable with the current content.
+
 ### Run tests
 
 To run tests, run the following command:
