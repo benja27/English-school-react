@@ -88,8 +88,8 @@ const presentContinuous = [
     "El costo de vida se esta elevando. Cada Año las cosas son mas caras"
   ],
   [
-    "The weather beginning to improve. The rain has stopped, and the wind ins’t as strong.",
-    ""
+    "The weather is beginning to improve. The rain has stopped, and the wind ins’t as strong.",
+    "El clima está comenzando a mejorar. La lluvia ha parado, y el viento no es tan fuerte."
   ]
 ];
 
