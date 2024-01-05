@@ -39,11 +39,10 @@ function App() {
   return (
     <div className='flex bg-slate-300 h-screen justify-around items-center c' >  
       <div>
-        <div>
+        <div className='max-w-[400px] ' >
           <button 
             className='bg-amber-400' 
-            onClick={ getRandomElement } >random question
-            
+            onClick={ getRandomElement } >random question            
           </button>
 
           <p> { element.length > 0 ? element[0] : "" } </p>
@@ -56,6 +55,9 @@ function App() {
       <div>
         <Prueba texto={'Lugares'} list={ListaPrincipal.lugares}> texto  </Prueba>      
         <Prueba texto={"condicionales"} list={ListaPrincipal.condicionales} ></Prueba>      
+        <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
+        <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
+        <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
         <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
       </div>
     </div>
