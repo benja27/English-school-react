@@ -23,5 +23,4 @@ const simplePast = [
     ["Era difícil llevar las bolsas. Eran muy pesadas.", "It was hard carrying the bags. They were very heavy. (be)"],
 ];
 
-
 export default simplePast;
