@@ -38,25 +38,26 @@ function App() {
   
 
   return (
-    <div className='flex bg-slate-300 h-screen justify-around items-center p-7 ' >  
+    <div className='flex bg-slate-300 h-screen gap-2 justify-around items-center p-7 ' >  
 
-      <div className='' >
-        <div>
+      <div className='basis-[450px] p-3' >
+        <div className='text-center flex flex-col' >  
+
           <button 
-            className='bg-amber-400' 
-            onClick={ getRandomElement } >random question
-            
+            className='bg-amber-400 text-xl font-bold py-2' 
+            onClick={ getRandomElement } >Random Sentence
           </button>
 
-          <p> { element.length > 0 ? element[1] : "" } </p>
-          <div className='pt-5' >
-            <button onClick={()=>setRespuesta(element[0])} className='bg-teal-600 text-white px-2 rounded-sm ' >show answer</button>
-            <p>{respuesta}</p>
-          </div>
+          <p className='text-xl font-medium text-center p-3' > { element.length > 0 ? element[1] : "" } </p>
+          
+          <button onClick={()=>setRespuesta(element[0])} className='bg-teal-600 text-white text-xl py-2 font-bold px-2 rounded-sm ' >Answer</button>
+          
+          <p className='text-xl font-medium text-center p-3' >{respuesta}</p>          
+
         </div>
       </div>    
       
-      <div className='flex gap-1 wrap' >        
+      <div className='flex gap-1 flex-wrap justify-center' >        
         <Button texto={"presente continuo"} list={ListaPrincipal.presentContinuous} ></Button>
         <Button texto={"simple Present"} list={ListaPrincipal.simplePresent} ></Button>
         <Button texto={"simple Present & continuos 1"} list={ListaPrincipal.prese_cont_and_simple_present} ></Button>

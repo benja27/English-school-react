@@ -21,7 +21,7 @@ const handleRemove = (item) => {
   return (
     <>
       <button 
-        className={`${active ? "bg-red-600": "bg-blue-600 "}  text-white rounded-sm px-2 py-1`}
+        className={`text-md font-medium ${active ? "bg-red-600": "bg-blue-600 "}  text-white rounded-sm px-2 py-1`}
         onClick={()=>handleAdd(list)}
       >
         { texto } </button>
