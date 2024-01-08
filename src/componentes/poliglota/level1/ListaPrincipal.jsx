@@ -1,11 +1,7 @@
-import test from "./ExportTest"
-import lugares from "../Listas/Lugares"
-import condicionales from "../Listas/condicionales"
+import presentContinuous from "../Listas/intermediate-grammar/1-present-and-past/1-present-continous"
 
 const ListaPrincipal = {  
-  lugares: lugares ,
-  condicionales: condicionales,
-  teste: test
+  presentContinuous: presentContinuous,
 }
 
 export default ListaPrincipal

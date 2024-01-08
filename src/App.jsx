@@ -46,17 +46,15 @@ function App() {
             
           </button>
 
-          <p> { element.length > 0 ? element[0] : "" } </p>
+          <p> { element.length > 0 ? element[1] : "" } </p>
           <div className='pt-5' >
-            <button onClick={()=>setRespuesta(element[1])} className='bg-teal-600 px-2 rounded-sm text-blue-950' >show answer</button>
+            <button onClick={()=>setRespuesta(element[0])} className='bg-teal-600 px-2 rounded-sm text-blue-950' >show answer</button>
             <p>{respuesta}</p>
           </div>
         </div>
       </div>    
       <div>
-        <Prueba texto={'Lugares'} list={ListaPrincipal.lugares}> texto  </Prueba>      
-        <Prueba texto={"condicionales"} list={ListaPrincipal.condicionales} ></Prueba>      
-        <Prueba texto={"test"} list={ListaPrincipal.teste} ></Prueba>      
+        <Prueba texto={'Presente continuo'} list={ListaPrincipal.presentContinuous}> texto  </Prueba>              
       </div>
     </div>
   )
