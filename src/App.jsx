@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Prueba from './componentes/poliglota/level1/Prueba'
+import Button from './componentes/general/Button'
 import ListaPrincipal from './componentes/poliglota/level1/ListaPrincipal'
 import useStore from './componentes/Zustand/State'
 
@@ -37,8 +38,9 @@ function App() {
   
 
   return (
-    <div className='flex bg-slate-300 h-screen justify-around items-center c' >  
-      <div>
+    <div className='flex bg-slate-300 h-screen justify-around items-center p-7 ' >  
+
+      <div className='' >
         <div>
           <button 
             className='bg-amber-400' 
@@ -48,14 +50,24 @@ function App() {
 
           <p> { element.length > 0 ? element[1] : "" } </p>
           <div className='pt-5' >
-            <button onClick={()=>setRespuesta(element[0])} className='bg-teal-600 px-2 rounded-sm text-blue-950' >show answer</button>
+            <button onClick={()=>setRespuesta(element[0])} className='bg-teal-600 text-white px-2 rounded-sm ' >show answer</button>
             <p>{respuesta}</p>
           </div>
         </div>
       </div>    
-      <div>
-        <Prueba texto={'Presente continuo'} list={ListaPrincipal.presentContinuous}> texto  </Prueba>              
+      
+      <div className='flex gap-1 wrap' >        
+        <Button texto={"presente continuo"} list={ListaPrincipal.presentContinuous} ></Button>
+        <Button texto={"simple Present"} list={ListaPrincipal.simplePresent} ></Button>
+        <Button texto={"simple Present & continuos 1"} list={ListaPrincipal.prese_cont_and_simple_present} ></Button>
+        <Button texto={"simple Present & continuos 2"} list={ListaPrincipal.presentContinuousAndSimplePresent2} ></Button>
+        <Button texto={"simple past"} list={ListaPrincipal.simplePast} ></Button>
+        <Button texto={"past continuos"} list={ListaPrincipal.pastContinuous} ></Button>
+        <Button texto={"present perfect"} list={ListaPrincipal.presentPerfect} ></Button>
+        <Button texto={"present perf&past"} list={ListaPrincipal.presentPerfectAndPast} ></Button>
+        <Button texto={"present perf&past2"} list={ListaPrincipal.presentPerfectAndPastTwo} ></Button>
       </div>
+
     </div>
   )
 }

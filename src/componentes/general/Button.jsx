@@ -1,7 +1,7 @@
 import useStore from "../Zustand/State";
 import { useEffect, useState } from "react";
 
-function Prueba( { list, texto, child } ) {
+function Button( { list, texto, child } ) {
   const {lista, add, removeItem } = useStore()
   const [active, setActive] = useState(false)
 
@@ -33,4 +33,4 @@ const handleRemove = (item) => {
   )
 }
 
-export default Prueba
+export default Button
