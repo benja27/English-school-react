@@ -1,0 +1,33 @@
+const presentContinuousAndSimplePresent2 = [
+    ["Nicky is thinking of giving up her job.", "Nicky está pensando en renunciar a su trabajo."],
+    ["Are you believing in God?", "¿Tú crees en Dios?"],
+    ["I’m feeling hungry. Is there anything to eat?", "Tengo hambre. ¿Hay algo para comer?"],
+    ["This sauce is great. It’s tasting really good.", "Esta salsa es genial. Está sabiendo muy bien."],
+    ["I’m thinking this is your key. Is it?", "Estoy pensando que esta es tu llave. ¿Lo es?"],
+    ["This sauce is great. It tastes really good.", "Esta salsa es genial. Sabe muy bien."],
+    ["I think this is your key. Is it?", "Creo que esta es tu llave. ¿Lo es?"],
+    ["You don’t seem very happy today.", "No pareces muy feliz hoy."],
+    ["Who does this umbrella belong to?", "¿A quién pertenece este paraguas?"],
+    ["Excuse me. Is anybody sitting there?", "Disculpe. ¿Alguien está sentado ahí?"],
+    ["What are you doing? – Be quiet! I am thinking.", "¿Qué estás haciendo? – ¡Silencio! Estoy pensando."],
+    ["Dinner smells good.", "La cena huele bien."],
+    ["These gloves don't fit me; they’re too small.", "Estos guantes no me quedan bien; son demasiado pequeños."],
+    ["Are you hungry? Do you want something to eat?", "¿Tienes hambre? ¿Quieres algo para comer?"],
+    ["Don’t put the dictionary away. I am using it.", "No guardes el diccionario. Lo estoy usando."],
+    ["Don’t put the dictionary away. I need it.", "No guardes el diccionario. Lo necesito."],
+    ["Who is that man? What does he want?", "¿Quién es ese hombre? ¿Qué quiere?"],
+    ["Who is that man? Why is he looking at us?", "¿Quién es ese hombre? ¿Por qué nos mira?"],
+    ["Ala says he’s 80 years old, but nobody believes him.", "Ala dice que tiene 80 años, pero nadie le cree."],
+    ["She told me her name, but I don't remember it now.", "Ella me dijo su nombre, pero no lo recuerdo ahora."],
+    ["I am thinking of selling my car. Are you interested in buying it?", "Estoy pensando en vender mi coche. ¿Estás interesado en comprarlo?"],
+    ["I think you should sell your car. You don’t use it very often.", "Creo que deberías vender tu coche. No lo usas muy a menudo."],
+    ["Air consists mainly of nitrogen and oxygen.", "El aire consiste principalmente en nitrógeno y oxígeno."],
+    ["I can’t understand why he’s being so selfish. He isn’t usually like that.", "No puedo entender por qué está siendo tan egoísta. Normalmente no es así."],
+    ["Sarah isn’t very nice to me these days. I wonder why.", "Sarah no es muy amable conmigo estos días. Me pregunto por qué."],
+    ["You’ll like Debbie when you meet her. She is very nice.", "Te gustará Debbie cuando la conozcas. Es muy amable."],
+    ["You’re usually very patient, so why are you being unreasonable about waiting 10 more minutes?", "Normalmente eres muy paciente, así que ¿por qué estás siendo tan intransigente sobre esperar 10 minutos más?"],
+    ["Why isn’t Steve at work today? Is he sick?", "¿Por qué no está Steve en el trabajo hoy? ¿Está enfermo?"],
+];
+
+
+export default presentContinuousAndSimplePresent2;
