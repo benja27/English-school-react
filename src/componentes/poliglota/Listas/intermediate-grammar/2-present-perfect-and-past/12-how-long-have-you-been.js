@@ -229,13 +229,101 @@ const chapterSolution2 = [
       "Have you always lived in Chicago?"
     ]
 ];
+
+const chapterSolution3 = [
+    // Conversation 1
+    [
+      "Amy está en el hospital, ¿verdad? – Sí, ha estado en el hospital desde el lunes.",
+      "Amy is in the hospital, isn’t she? – Yes, she has been in the hospital since Monday."
+    ],
+  
+    // Conversation 2
+    [
+      "¿Ves a Ann muy a menudo? – No, no la he visto en tres meses.",
+      "Do you see Ann very often? – No, I haven’t seen her for three months."
+    ],
+  
+    // Conversation 3
+    [
+      "¿Margaret está casada? – Sí, ha estado casada durante 10 años.",
+      "Is Margaret married? – Yes, she has been married for 10 years."
+    ],
+  
+    // Conversation 4
+    [
+      "¿Me estás esperando? – Sí, he estado esperando durante la última media hora.",
+      "Are you waiting for me? – Yes, I have been waiting for the last half hour."
+    ],
+  
+    // Conversation 5
+    [
+      "Conoces a Linda, ¿verdad? – Sí, nos conocemos desde hace mucho tiempo.",
+      "You know Linda, don’t you? – Yes, we have known each other a long time."
+    ],
+  
+    // Conversation 6
+    [
+      "¿Todavía juegas al tenis? – No, no he jugado al tenis durante años.",
+      "Do you still play tennis? – No, I haven’t played tennis for years."
+    ],
+  
+    // Conversation 7
+    [
+      "¿Jim está viendo la televisión? – Sí, ha estado viendo la televisión toda la noche.",
+      "Is Jim watching TV? – Yes, he has been watching TV all night."
+    ],
+  
+    // Conversation 8
+    [
+      "¿Ves la televisión mucho? – No, no he visto la televisión desde hace mucho tiempo.",
+      "Do you watch TV a lot? – No, I haven’t watched TV for ages."
+    ],
+  
+    // Conversation 9
+    [
+      "¿Tienes dolor de cabeza? – Sí, he tenido dolor de cabeza toda la mañana.",
+      "Do you have a headache? – Yes, I have had a headache all morning."
+    ],
+  
+    // Conversation 10
+    [
+      "George nunca está enfermo, ¿verdad? – No, no ha estado enfermo desde que lo conocí.",
+      "George is never sick, is he? – No, he hasn’t been sick since I met him."
+    ],
+  
+    // Conversation 11
+    [
+      "¿Te sientes enfermo? – Sí, he estado sintiéndome enfermo todo el día.",
+      "Are you feeling sick? – Yes, I have been feeling sick all day."
+    ],
+  
+    // Conversation 12
+    [
+      "Sue vive en Miami, ¿verdad? – Sí, ha vivido en Miami durante los últimos años.",
+      "Sue lives in Miami, doesn’t she? – Yes, she has lived in Miami for the last few years."
+    ],
+  
+    // Conversation 13
+    [
+      "¿Vas mucho al cine? – No, no he ido al cine desde hace mucho tiempo.",
+      "Do you go to the movies a lot? – No, I haven’t been to the movies for ages."
+    ],
+  
+    // Conversation 14
+    [
+      "¿Te gustaría ir a Taiwán algún día? – Sí, siempre he querido ir a Taiwán.",
+      "Would you like to go to Taiwan one day? – Yes, I have always wanted to go to Taiwan."
+    ]
+];
+  
   
   
 
 const howLongHaveYou = [
     ...chapterExamples,
     ...chapterSolution1,
-    ...chapterSolution2
+    ...chapterSolution2,
+    ...chapterSolution3
 ]
 
 export default howLongHaveYou;
