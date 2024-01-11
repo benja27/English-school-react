@@ -73,3 +73,27 @@ const chapterExamples = [
     'I’m studying Spanish, but I haven’t learned very much yet.',
   ],
 ];
+
+const chapterSolution1 = [
+  [
+    'Luis empezó a leer un libro hace dos horas. Todavía lo está leyendo, y ahora está en la página 53. Ha estado leyendo durante dos horas. Ha leído 53 páginas hasta ahora.',
+    'Luis started reading a book two hours ago. He is still reading it, and now he is on page 53. He has been reading for two hours. He has read 53 pages so far.',
+  ],
+
+  [
+    'Min es de Corea. Está viajando por Asia en este momento. Comenzó su viaje hace tres meses.Ha estado viajando durante tres meses.Ha visitado seis países hasta ahora.',
+    'Min is from Korea. She is traveling around Asia right now. She began her trip three months ago. She has been traveling for three months.She has visited six countries so far.',
+  ],
+
+  [
+    'Jimmy es un jugador de tenis. Empezó a jugar al tenis cuando tenía 10 años. Este año es campeón nacional nuevamente, por cuarta vez. Ha ganado los campeonatos nacionales cuatro veces. Ha estado jugando al tenis desde que tenía 10 años.',
+    'Jimmy is a tennis player. He began playing tennis when he was 10 years old. This year he is the national champion again, for the fourth time. He has won the national championships four times. He has been playing tennis since he was 10.',
+  ],
+
+  [
+    'Cuando se graduaron de la universidad, Lisa y Amy empezaron a hacer películas juntas. Todavía hacen películas. Han hecho cinco películas desde que terminaron la universidad. Han estado haciendo películas desde que terminaron la universidad.',
+    'When they graduated from college, Lisa and Amy started making movies together. They still make movies. They have made five movies since they finished college. They have been making movies since they finished college.',
+  ],
+];
+
+const presentPerfectContinuosandSimple = [...chapterExamples];
