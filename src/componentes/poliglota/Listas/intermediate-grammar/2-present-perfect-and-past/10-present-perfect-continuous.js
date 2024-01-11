@@ -74,3 +74,54 @@ const chapterSolution2 = [
     'A friend of yours is now working at a gym. You want to know how long. You ask: How long have you been working there?',
   ],
 ];
+
+const chapterSolution3 = [
+    // Conversation 1
+    [
+      "Está lloviendo. La lluvia comenzó hace dos horas.",
+      "It’s raining. The rain started two hours ago."
+    ],
+  
+    // Conversation 2
+    [
+      "Ha estado lloviendo durante dos horas.",
+      "It’s been raining for two hours."
+    ],
+  
+    // Conversation 3
+    [
+      "Estamos esperando el autobús. Llegamos a la parada hace 20 minutos. Hemos estado esperando durante 20 minutos.",
+      "We are waiting for the bus. We got to the bus stop 20 minutes ago. We have been waiting for 20 minutes."
+    ],
+  
+    // Conversation 4
+    [
+      "Estoy estudiando español. Comencé las clases en diciembre.",
+      "I’m studying Spanish. I started classes in December."
+    ],
+  
+    // Conversation 5
+    [
+      "He estado estudiando español desde diciembre.",
+      "I have been studying Spanish since December."
+    ],
+  
+    // Conversation 6
+    [
+      "Jessica está trabajando en Tokio. Comenzó a trabajar allí el 18 de enero. Ha estado trabajando en Tokio desde el 18 de enero.",
+      "Jessica is working in Tokyo. She started working there on January 18. She has been working in Tokyo since January 18."
+    ],
+  
+    // Conversation 7
+    [
+      "Nuestros amigos siempre pasan sus veranos en las montañas. Empezaron a ir allí hace años.",
+      "Our friends always spend their summers in the mountains. They started going there years ago."
+    ],
+  
+    // Conversation 8
+    [
+      "Han estado pasando sus veranos en las montañas durante años.",
+      "They have been spending their summers in the mountains for years."
+    ]
+  ];
+  
