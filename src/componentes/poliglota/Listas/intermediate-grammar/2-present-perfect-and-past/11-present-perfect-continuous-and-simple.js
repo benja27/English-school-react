@@ -96,4 +96,116 @@ const chapterSolution1 = [
   ],
 ];
 
-const presentPerfectContinuosandSimple = [...chapterExamples];
+const chapterSolution2 = [
+    // Conversation 1
+    [
+      "Tienes un amigo que está estudiando árabe. Le preguntas: ¿Cuánto tiempo llevas estudiando árabe?",
+      "You have a friend who is studying Arabic. You ask: How long have you been studying Arabic?"
+    ],
+  
+    // Conversation 2
+    [
+      "Acabas de llegar para encontrarte con una amiga. Ella te está esperando. Le preguntas: ¿Has estado esperando mucho?",
+      "You have just arrived to meet a friend. She is waiting for you. You ask: Have you been waiting long?"
+    ],
+  
+    // Conversation 3
+    [
+      "Unos amigos tuyos están organizando una fiesta la próxima semana. Les preguntas: ¿Cuántas personas han invitado?",
+      "Some friends of yours are having a party next week. You ask: How many people have they invited?"
+    ],
+  
+    // Conversation 4
+    [
+      "Un amigo tuyo es profesor. Le preguntas: ¿Cuánto tiempo llevas enseñando?",
+      "A friend of yours is a teacher. You ask: How long have you been teaching?"
+    ],
+  
+    // Conversation 5
+    [
+      "Te encuentras con alguien que es escritor. Le preguntas: ¿Cuántos libros has escrito?",
+      "You meet somebody who is a writer. You ask: How many books have you written?"
+    ],
+  
+    // Conversation 6
+    [
+      "Un amigo tuyo está ahorrando dinero para hacer un viaje. Le preguntas: ¿Cuánto tiempo llevas ahorrando? ¿Cuánto dinero has ahorrado?",
+      "A friend of yours is saving money to take a trip. You ask: How long have you been saving? How much money have you saved?"
+    ]
+  ];
+
+const chapterSolution3 = [
+    // Conversation 1
+    [
+      "¿Dónde has estado? ¿Has estado jugando tenis?",
+      "Where have you been? Have you been playing tennis?"
+    ],
+    [
+      "¡Mira! Alguien ha roto esa ventana.",
+      "Look! Somebody has broken that window."
+    ],
+  
+    // Conversation 2
+    [
+      "Te ves cansado. ¿Has estado trabajando duro?",
+      "You look tired. Have you been working hard?"
+    ],
+  
+    // Conversation 3
+    [
+      "¿Alguna vez has trabajado en una fábrica? – No, nunca.",
+      "Have you ever worked in a factory? – No, never."
+    ],
+  
+    // Conversation 4
+    [
+      "Hola, ¿está Sam allí? – No, ha salido a correr.",
+      "Hi, is Sam there? – No, he has gone for a run."
+    ],
+  
+    // Conversation 5
+    [
+      "Mi hermano es actor. Ha aparecido en varias películas.",
+      "My brother is an actor. He has appeared in several films."
+    ],
+  
+    // Conversation 6
+    [
+      "Lo siento, llego tarde. – Está bien. No he estado esperando mucho.",
+      "Sorry, I’m late. – That’s all right. I haven’t been waiting long."
+    ],
+  
+    // Conversation 7
+    [
+      "¿Sigue lloviendo? – No, ha dejado de llover.",
+      "Is it still raining? – No, it has stopped."
+    ],
+  
+    // Conversation 8
+    [
+      "He perdido mi teléfono móvil. ¿Lo has visto en algún lugar?",
+      "I have lost my cell phone. Have you seen it anywhere?"
+    ],
+  
+    // Conversation 9
+    [
+      "He leído el libro que me prestaste, pero aún no lo he terminado. Es muy interesante.",
+      "I have read the book you lent me, but I haven't finished it yet. It’s very interesting."
+    ],
+  
+    // Conversation 10
+    [
+      "He leído el libro que me prestaste, así que puedes tenerlo de vuelta ahora.",
+      "I have read the book you lent me, so you can have it back now."
+    ]
+  ];
+  
+  
+
+const presentPerfectContinuosandSimple = [...chapterExamples
+...chapterSolution1,
+...chapterSolution2,
+...chapterSolution3,
+];
+
+export default presentPerfectContinuosandSimple;
