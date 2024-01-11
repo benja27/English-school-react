@@ -169,4 +169,13 @@ const chapterSolution4 = [
     ]
   ];
   
+const presentPerfectContinuos = [
+    ...chapterExamples,
+    ...chapterSolution1,
+    ...chapterSolution2,
+    ...chapterSolution3,
+    ... chapterSolution4
+]
+
+export default presentPerfectContinuos;
   
