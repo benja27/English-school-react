@@ -231,7 +231,7 @@ const forSinceWhen = [
     [
       "Estás trabajando en un hotel. Comenzaste hace seis meses. – He estado trabajando aquí durante seis meses.",
       "You’re working in a hotel. You started six months ago. – I’ve been working here for six months."
-
+    ],
     // Conversation 22
     [
       "No, no he tomado vacaciones durante cinco años.",
