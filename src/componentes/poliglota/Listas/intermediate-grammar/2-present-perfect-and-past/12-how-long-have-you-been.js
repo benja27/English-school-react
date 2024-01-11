@@ -179,12 +179,63 @@ const chapterSolution1 = [
       "That’s a very old bike. How long have you had it?"
     ]
 ];
+
+const chapterSolution2 = [
+    // Conversation 1
+    [
+      "John te cuenta que su madre está en el hospital. Le preguntas:",
+      "How long has your mother been in the hospital?"
+    ],
+  
+    // Conversation 2
+    [
+      "Conoces a una mujer que te dice que enseña inglés. Le preguntas:",
+      "How long have you been teaching English?"
+    ],
+  
+    // Conversation 3
+    [
+      "Sabes que Erica es una buena amiga de Carol. Le preguntas a Erica:",
+      "How long have you known Carol?"
+    ],
+  
+    // Conversation 4
+    [
+      "El hermano del amigo se mudó a Costa Rica hace un tiempo. Le preguntas a tu amigo:",
+      "How long has he been in Costa Rica?"
+    ],
+  
+    // Conversation 5
+    [
+      "Chris conduce un coche muy antiguo. Le preguntas:",
+      "How long have you had that car?"
+    ],
+  
+    // Conversation 6
+    [
+      "Estás hablando con un amigo sobre Scott. Scott ahora trabaja en el aeropuerto. Le preguntas a tu amigo:",
+      "How long has Scott been working at the airport?"
+    ],
+  
+    // Conversation 7
+    [
+      "Un amigo tuyo está tomando clases de guitarra. Le preguntas:",
+      "How long have you been taking guitar lessons?"
+    ],
+  
+    // Conversation 8
+    [
+      "Conoces a alguien en un avión. Ella dice que vive en Chicago. Le preguntas:",
+      "Have you always lived in Chicago?"
+    ]
+];
+  
   
 
 const howLongHaveYou = [
     ...chapterExamples,
-
-
+    ...chapterSolution1,
+    ...chapterSolution2
 ]
 
 export default howLongHaveYou;
