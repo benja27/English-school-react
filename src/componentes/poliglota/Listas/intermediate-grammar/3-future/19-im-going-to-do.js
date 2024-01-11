@@ -82,8 +82,33 @@ const imGoingToDo = [
     [
       "Erica y Chris están conduciendo en el campo. Queda muy poco gas en el tanque. La gasolinera más cercana está a kilómetros de distancia. (agotarse) Se van a quedar sin gasolina.",
       "Erica and Chris are driving in the country. There is very little gas left in the tank. The nearest gas station is miles away. (run out) They are going to run out of gas."
+    ],
+    [
+      "Íbamos a volar a Nueva York, pero luego decidimos conducir en su lugar.",
+      "We were going to fly to New York, but then we decided to drive instead."
+    ],
+    [
+      "Yo iba a comprar ropa nueva ayer, pero estaba muy ocupado y no tenía tiempo para ir de compras.",
+      "I was going to buy some new clothes yesterday, but I was very busy and didn’t have time to go shopping."
+    ],
+    [
+      "Joshua y yo íbamos a jugar tenis la semana pasada, pero se lastimó el tobillo.",
+      "Joshua and I were going to play tennis last week, but he hurt his ankle."
+    ],
+    [
+      "Yo iba a llamar a Jane, pero decidí enviarle un correo electrónico en su lugar.",
+      "I was going to call Jane, but I decided to e-mail her instead."
+    ],
+    [
+      "La última vez que vi a Bob, iba a renunciar a su trabajo. – Así es, pero al final, decidió no hacerlo.",
+      "The last time I saw Bob, he was going to quit his job. – That’s right, but in the end, he decided not to."
+    ],
+    [
+      "Íbamos a tener una fiesta la semana pasada, pero algunos de nuestros amigos no pudieron venir, así que la cancelamos.",
+      "We were going to have a party last week, but some of our friends couldn’t come, so we canceled."
     ]
   ];
+  
   
   
 
