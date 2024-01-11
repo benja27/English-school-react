@@ -12,3 +12,11 @@ const chapterExamples = [
     ["Debbie es una muy buena jugadora de tenis. Ha estado jugando desde los ocho años.", "Debbie is a very good tennis player. She’s been playing since she was eight."],
     ["Cada mañana se encuentran en el mismo café. Han estado yendo allí durante años.", "Every morning they meet in the same cafe. They’ve been going there for years."]
 ];
+
+const chapterSolution1 = [
+    ["Han estado de compras.", "They’ve been shopping."],
+    ["Ella ha estado viendo televisión.", "She has been watching TV."],
+    ["Han estado jugando tenis.", "They’ve been playing tennis."],
+    ["Él ha estado corriendo.", "He has been running."]
+];
+
