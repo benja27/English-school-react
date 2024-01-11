@@ -124,4 +124,49 @@ const chapterSolution3 = [
       "They have been spending their summers in the mountains for years."
     ]
   ];
+
+const chapterSolution4 = [
+    // Conversation 1
+    [
+      "Maria ha estado estudiando inglés durante dos años.",
+      "Maria has been studying English for two years."
+    ],
+  
+    // Conversation 2
+    [
+      "Hola, Tom. Te he estado buscando toda la mañana. ¿Dónde has estado?",
+      "Hello, Tom. I have been looking for you all morning. Where have you been?"
+    ],
+  
+    // Conversation 3
+    [
+      "¿Por qué me has estado mirando así? ¡Detente!",
+      "Why have you been looking at me like that? Stop it!"
+    ],
+  
+    // Conversation 4
+    [
+      "Linda es profesora. Ha estado enseñando durante 10 años.",
+      "Linda is a teacher. She has been teaching for 10 years."
+    ],
+  
+    // Conversation 5
+    [
+      "He estado pensando en lo que dijiste, y he decidido seguir tu consejo.",
+      "I have been thinking about what you said, and I’ve decided to take your advice."
+    ],
+  
+    // Conversation 6
+    [
+      "¿Kim está de vacaciones esta semana? - No, está trabajando.",
+      "Is Kim on vacation this week? – No, she is working."
+    ],
+  
+    // Conversation 7
+    [
+      "Sarah está muy cansada. Ha estado trabajando muy duro últimamente.",
+      "Sarah is very tired. She has been working very hard recently."
+    ]
+  ];
+  
   
