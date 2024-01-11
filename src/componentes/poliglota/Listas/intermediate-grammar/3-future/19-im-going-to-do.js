@@ -33,8 +33,58 @@ const imGoingToDo = [
       "Estaba a punto de cruzar la calle cuando alguien gritó, ‘’¡Detente!’’.",
       "I was just going to cross the street when somebody shouted, ‘’Stop!’’."
     ],
-    ["Pensé que iba a llover, pero no lo hizo.", "I thought it was going to rain, but it didn’t."]
+    ["Pensé que iba a llover, pero no lo hizo.", "I thought it was going to rain, but it didn’t."],
+    [
+      "Tu amigo ha ganado algo de dinero. Le preguntas: ¿Qué vas a hacer con eso?",
+      "Your friend has won some money. You ask: What are you going to do with it?"
+    ],
+    [
+      "Tu amigo va a una fiesta esta noche. Le preguntas: ¿Qué vas a ponerte?",
+      "Your friend is going to a party tonight. You ask: What are you going to wear?"
+    ],
+    [
+      "Tu amigo acaba de comprar una mesa nueva. Le preguntas: ¿Dónde la vas a poner?",
+      "Your friend has just bought a new table. You ask: Where are you going to put it?"
+    ],
+    [
+      "Tu amigo ha decidido hacer una fiesta. Le preguntas: ¿A quién vas a invitar?",
+      "Your friend has decided to have a party. You ask: Who are you going to invite?"
+    ],
+    [
+      "Has decidido limpiar tu habitación esta mañana. ¿Vas a salir esta mañana? – No, voy a limpiar mi habitación.",
+      "You have decided to clean your room this morning: Are you going out this morning? – No, I’m going to clean my room."
+    ],
+    [
+      "Compraste un suéter, pero no te queda muy bien. Has decidido devolverlo: Ese suéter te queda demasiado grande. – Lo sé, lo voy a devolver.",
+      "You bought a sweater, but it doesn’t fit you very well. You have decided to return it: That sweater is too big for you. – I know, I'm going to return it."
+    ],
+    [
+      "Te han ofrecido un trabajo, pero has decidido no aceptarlo: Escuché que te ofrecieron un trabajo. – Así es, pero no lo voy a aceptar.",
+      "You have been offered a job, but you have decided not to take it: I hear you’ve been offered a job. – That’s right, but I'm not going to take it."
+    ],
+    [
+      "Tienes que llamar a Sarah. Es de mañana ahora, y planeas llamarla esta noche: ¿Ya llamaste a Sarah? – No, la voy a llamar esta noche.",
+      "You have to call Sarah. It’s morning now, and you intend to call her tonight: Have you called Sarah yet? – No, I'm going to call her tonight."
+    ],
+    [
+      "Estás en un restaurante. La comida es horrible, y has decidido irte: Esta comida es terrible. – Lo sé, no voy a volver a comer aquí.",
+      "You are in a restaurant. The food is awful, and you’ve decided to leave: This food is terrible. – I know, I'm not going to eat here again."
+    ],
+    ["Hay muchas nubes oscuras en el cielo. (lluvia) Va a llover.", "There are a lot of dark clouds in the sky. (rain) It’s going to rain."],
+    [
+      "Son las 8:30. Tom está saliendo de su casa. Debería estar en el trabajo a las 8:45, pero le lleva 30 minutos llegar allí. (tarde) Va a llegar tarde.",
+      "It is 8:30. Tom is leaving his house. He should be at work at 8:45, but it takes him 30 minutes to get there. (late) He is going to be late."
+    ],
+    [
+      "Hay un agujero en el fondo del barco. Mucho agua está entrando por el agujero. (hundir) El barco se va a hundir.",
+      "There is a hole in the bottom of the boat. A lot of water is coming in through the hole. (sink) The boat is going to sink."
+    ],
+    [
+      "Erica y Chris están conduciendo en el campo. Queda muy poco gas en el tanque. La gasolinera más cercana está a kilómetros de distancia. (agotarse) Se van a quedar sin gasolina.",
+      "Erica and Chris are driving in the country. There is very little gas left in the tank. The nearest gas station is miles away. (run out) They are going to run out of gas."
+    ]
   ];
+  
   
 
 export default imGoingToDo;
