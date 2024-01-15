@@ -194,5 +194,7 @@ const will = [
       "I know you’re busy, but can you finish this report this afternoon? – Well, I’ll try, but I can’t promise."
     ]
   ];
+
+  export default will;
   
   
