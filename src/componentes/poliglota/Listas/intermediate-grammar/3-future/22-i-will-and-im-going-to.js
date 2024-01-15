@@ -1,7 +1,5 @@
 // 22 I will and I’m going to 
 
-import will from "./20-will";
-
 const willAndGoingTo = [
     ['Tengamos una fiesta. – Esa es una gran idea. Invitaremos a mucha gente.', 'Let’s have a party. – That’s a great idea. We’ll invite lots of people.'],
     ['Sue y yo hemos decidido hacer una fiesta. Vamos a invitar a mucha gente.', 'Sue and I have decided to have a party. We’re going to invite lots of people.'],
