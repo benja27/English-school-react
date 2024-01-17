@@ -1,0 +1,58 @@
+import { useState } from "react";
+import useStore from "../../Zustand/State";
+
+function PreguntayRespuesta() {
+
+  const { lista } = useStore();
+  // console.log(lista)
+  const [element, setElement] = useState("");
+  // console.log(element)
+  const [respuesta, setRespuesta] = useState("");
+
+  let r;
+  function randomN(min, max) {
+    r = Math.floor(Math.random() * (max - min + 1)) + min;
+    return r;
+  }
+
+  const getRandomElement = () => {
+    let n1 = randomN(0, lista.length - 1);
+    // console.log(n1)
+    let n2 = randomN(0, lista[n1].length - 1);
+    // console.log(n2)
+    let n3 = lista[n1][n2];
+    // console.log(n1,n2,n3)
+    setElement(n3);
+  };
+
+
+
+  return (
+    <div className="basis-[450px] p-3">
+        <div className="text-center flex flex-col">
+          <button
+            className="bg-amber-400 text-xl font-bold py-2"
+            onClick={getRandomElement}
+          >
+            Random Sentence
+          </button>
+
+          <p className="text-xl font-medium text-center p-3">
+            {" "}
+            {element.length > 0 ? element[1] : ""}{" "}
+          </p>
+
+          <button
+            onClick={() => setRespuesta(element[0])}
+            className="bg-teal-600 text-white text-xl py-2 font-bold px-2 rounded-sm "
+          >
+            Answer
+          </button>
+
+          <p className="text-xl font-medium text-center p-3">{respuesta}</p>
+        </div>
+      </div>
+  )
+}
+
+export default PreguntayRespuesta
