@@ -5,7 +5,9 @@ const useStore = create((set)=>({
   add: (item) => set((state)=> ({lista: [...state.lista, item]}) ),
   removeItem: (item) => set((state) => ({ lista: state.lista.filter((el) => el !== item) })),
   visible: "grama",
-  changeVisible: (visible) => set({visible})
+  changeVisible: (visible) => set({visible}),
+  notepad: false,
+  changeNotepad: (notepad) => set({notepad}),
 }))
 
 export default useStore

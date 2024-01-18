@@ -1,8 +1,9 @@
-import BookGrama from './componentes/gramaBook/BookGrama'
-import Navbar from './componentes/general/Navbar'
+
+
+import Navbar from './componentes/general/Navbar/Navbar'
 import useStore from './componentes/Zustand/State'
 import MidElement from './componentes/general/ElementoCentral.jsx/MidElement'
-
+import Notepad from './componentes/general/Notepad'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Notepad/>
       <MidElement/>
       {/* <BookGrama/>  */}
     </div>

@@ -4,7 +4,7 @@ import useStore from "../../Zustand/State";
 function PreguntayRespuesta() {
 
   const { lista } = useStore();
-  // console.log(lista)
+  console.log(lista)
   const [element, setElement] = useState("");
   // console.log(element)
   const [respuesta, setRespuesta] = useState("");
@@ -28,8 +28,9 @@ function PreguntayRespuesta() {
 
 
   return (
-    <div className="basis-[450px] p-3">
+    <div className="asis-[450px] min-w-[30%] p-3">
         <div className="text-center flex flex-col">
+
           <button
             className="bg-amber-400 text-xl font-bold py-2"
             onClick={getRandomElement}
@@ -50,6 +51,15 @@ function PreguntayRespuesta() {
           </button>
 
           <p className="text-xl font-medium text-center p-3">{respuesta}</p>
+
+          <button className="bg-blue-700 text-white py-2 rounded-md hover:scale-110"    >
+            Mostrar todos los elementos
+          </button>
+          <br />
+          <button className="bg-blue-700 text-white py-2 rounded-md hover:scale-110"    >
+            Mostrar vocabulario
+          </button>
+
         </div>
       </div>
   )
