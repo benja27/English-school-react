@@ -2,7 +2,7 @@ import useStore from "../Zustand/State";
 import { useEffect, useState } from "react";
 
 function Button( { list, texto, child } ) {
-  const {lista, add, removeItem } = useStore()
+  const {lista, add, removeItem, visible } = useStore()
   const [active, setActive] = useState(false)
 
  const handleAdd = (item) => {
