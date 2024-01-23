@@ -1,0 +1,35 @@
+const FrasesCasa = [
+  ["I wake up every day at 7 AM. 😴", "Me despierto todos los días a las 7 AM. 😴"],
+  ["I get up early in the morning. 🌅", "Me levanto temprano por la mañana. 🌅"],
+  ["I stretch my arms and legs after waking up. 🤸", "Estiro mis brazos y piernas después de despertar. 🤸"],
+  ["I take a bath before going to bed. 🛁", "Me baño antes de irme a la cama. 🛁"],
+  ["I get dressed for work in the morning. 👗", "Me visto para trabajar por la mañana. 👗"],
+  ["I have breakfast with my family. 🍳", "Desayuno con mi familia. 🍳"],
+  ["I brush my teeth before going to sleep. 🦷", "Me cepillo los dientes antes de dormir. 🦷"],
+  ["I comb my hair after showering. 💇", "Me peino después de ducharme. 💇"],
+  ["I leave the house at 8 AM. 🏡", "Salgo de casa a las 8 AM. 🏡"],
+  ["I drive to work every day. 🚗", "Conduzco al trabajo todos los días. 🚗"],
+  ["I work from 9 to 5. 💼", "Trabajo de 9 a 5. 💼"],
+  ["I meet up with friends on weekends. 🤝", "Me reúno con amigos los fines de semana. 🤝"],
+  ["I have lunch at 12 PM. 🍽️", "Almuerzo a las 12 PM. 🍽️"],
+  ["I rest for a while in the afternoon. 😌", "Descanso un rato por la tarde. 😌"],
+  ["I read books in the evening. 📚", "Leo libros por la tarde. 📚"],
+  ["I write in my journal every night. 📝", "Escribo en mi diario todas las noches. 📝"],
+  ["I exercise at the gym. 🏋️‍♂️", "Hago ejercicio en el gimnasio. 🏋️‍♂️"],
+  ["I walk in the park every morning. 🚶", "Camino en el parque todas las mañanas. 🚶"],
+  ["I shop for groceries on Saturdays. 🛒", "Compro alimentos los sábados. 🛒"],
+  ["I cook dinner for my family. 🍲", "Cocino la cena para mi familia. 🍲"],
+  ["I have dinner with friends. 🍽️", "Ceno con amigos. 🍽️"],
+  ["I watch TV shows in the evening. 📺", "Veo programas de televisión por la noche. 📺"],
+  ["I listen to music before bedtime. 🎧", "Escucho música antes de dormir. 🎧"],
+  ["I talk on the phone with my parents. 📞", "Hablo por teléfono con mis padres. 📞"],
+  ["I browse the internet for news. 🌐", "Navego por internet en busca de noticias. 🌐"],
+  ["I study English on weekends. 📖", "Estudio inglés los fines de semana. 📖"],
+  ["I do household chores on Sundays. 🧹", "Hago las tareas del hogar los domingos. 🧹"],
+  ["I socialize with colleagues after work. 🤗", "Socializo con colegas después del trabajo. 🤗"],
+  ["I relax in the evening with a book. 😌", "Me relajo por la noche con un libro. 😌"],
+  ["I go to sleep at 10 PM. 🛌", "Me voy a dormir a las 10 PM. 🛌"]
+]
+
+
+export default FrasesCasa
