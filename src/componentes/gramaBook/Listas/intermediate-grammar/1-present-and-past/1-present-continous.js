@@ -2,33 +2,49 @@
 
 const conversationAboutBrian = [
   [
-      "A: I saw Brian a few days ago. B: Oh, did you? What’s he doing these days?",
-      "A: Vi a Brian hace unos días. B: ¿Oh, en serio? ¿Qué está haciendo estos días?"
-  ],
-  [
-      "A: He’s in college now. B: What's he studying? A: Psychology.",
+      `A: I saw Brian a few days ago. B: Oh, did you? What’s he doing these days? 
+       A: He’s in college now. B: What's he studying? A: Psychology.
+       "A: B: Is he enjoying it? "
+       "A: Yes, he says he's learning a lot. ",
+       "A: Hi, Liz. How is your new job going? B: Not bad. It wasn’t so good at first, but it's getting better now. ",
+       "A: What about Jonathan? Is he OK? B: Yes, but he's not enjoying his work at the moment.",
+       "B: He’s been in the same job for a long time, and he's beginning to get bored with it.",
+       `      
+       ,
+
+      `A: Vi a Brian hace unos días. B: ¿Oh, en serio? ¿Qué está haciendo estos días?
       "A: Ahora está en la universidad. B: ¿Qué está estudiando? A: Psicología. "
-  ],
-  [
-      "A: B: Is he enjoying it? ",
       "B: ¿Le está gustando?"
-  ],
-  [
-      "A: Yes, he says he's learning a lot. ",
       "A: Sí, dice que está aprendiendo mucho."
-  ],
-  [
-      "A: Hi, Liz. How is your new job going? B: Not bad. It wasn’t so good at first, but it's getting better now. ",
       "A: Hola, Liz. ¿Cómo va tu nuevo trabajo? B: No mal. No fue tan bueno al principio, pero ahora está mejorando."
-  ],
-  [
-      "A: What about Jonathan? Is he OK? B: Yes, but he's not enjoying his work at the moment.",
       "A: ¿Y Jonathan? ¿Está bien? B: Sí, pero no está disfrutando su trabajo en este momento."
-  ],
-  [
-      "B: He’s been in the same job for a long time, and he's beginning to get bored with it.",
       "B: Ha estado en el mismo trabajo durante mucho tiempo, y está empezando a aburrirse."
-  ],
+      `  
+  ],[
+    `
+      A: I saw Brian a few days ago. B: Oh, did you? What’s he doing these days? 
+      A: He’s in college now. B: What's he studying? A: Psychology.
+      "A: B: Is he enjoying it? "
+      "A: Yes, he says he's learning a lot. ",
+    `,
+    `
+      A: Vi a Brian hace unos días. B: ¿Oh, en serio? ¿Qué está haciendo estos días?
+      "A: Ahora está en la universidad. B: ¿Qué está estudiando? A: Psicología. "
+      "B: ¿Le está gustando?"
+      "A: Sí, dice que está aprendiendo mucho."
+    `
+  ],[
+    `
+    "A: Hi, Liz. How is your new job going? B: Not bad. It wasn’t so good at first, but it's getting better now. ",
+    "A: What about Jonathan? Is he OK? B: Yes, but he's not enjoying his work at the moment.",
+    "B: He’s been in the same job for a long time, and he's beginning to get bored with it."
+    `,
+    `
+    "A: Hola, Liz. ¿Cómo va tu nuevo trabajo? B: No mal. No fue tan bueno al principio, pero ahora está mejorando."
+    "A: ¿Y Jonathan? ¿Está bien? B: Sí, pero no está disfrutando su trabajo en este momento."
+    "B: Ha estado en el mismo trabajo durante mucho tiempo, y está empezando a aburrirse."
+    `
+  ]
 ]
 
 const presentContinuous = [
@@ -100,8 +116,32 @@ const presentContinuous = [
   [
     "Tim isn't working this week. He has a week off.",
     'Tim no está trabajando esta semana. Tiene una semana libre. 🌴',
+  ],[
+    `
+      A: I saw Brian a few days ago. B: Oh, did you? What’s he doing these days? 
+      A: He’s in college now. B: What's he studying? A: Psychology.
+      A: B: Is he enjoying it? 
+      "A: Yes, he says he's learning a lot. "
+    `,
+    `
+      A: Vi a Brian hace unos días. B: ¿Oh, en serio? ¿Qué está haciendo estos días?
+      A: Ahora está en la universidad. B: ¿Qué está estudiando? A: Psicología. 
+      B: ¿Le está gustando?
+      A: Sí, dice que está aprendiendo mucho.
+    `
   ],
-  ...conversationAboutBrian,
+  [
+    `
+    A: Hi, Liz. How is your new job going? B: Not bad. It wasn’t so good at first, but it's getting better now. ,
+    A: What about Jonathan? Is he OK? B: Yes, but he's not enjoying his work at the moment.,
+    B: He’s been in the same job for a long time, and he's beginning to get bored with it.
+    `,
+    `
+    A: Hola, Liz. ¿Cómo va tu nuevo trabajo? B: No mal. No fue tan bueno al principio, pero ahora está mejorando.
+    A: ¿Y Jonathan? ¿Está bien? B: Sí, pero no está disfrutando su trabajo en este momento.
+    B: Ha estado en el mismo trabajo durante mucho tiempo, y está empezando a aburrirse.
+    `
+  ],  
   [
     "The population of the world is increasing very fast.",
     "La poblacion mundial esta incrementando muy rapido."

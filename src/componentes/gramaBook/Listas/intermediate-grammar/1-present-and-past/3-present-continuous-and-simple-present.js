@@ -1,4 +1,4 @@
-const presentContinuous = [
+const presentContinuousAndSimplePresent = [
   [
     'Water boils at 212 degrees Fahrenheit.',
     'El agua hierve a 212 grados Fahrenheit.',
@@ -122,4 +122,4 @@ const presentContinuous = [
   ],
 ];
 
-export default presentContinuous;
+export default presentContinuousAndSimplePresent;
