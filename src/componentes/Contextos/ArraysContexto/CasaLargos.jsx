@@ -6,7 +6,7 @@ const casaLargos = [
     `Today, I woke up early and got out of bed. I made the bed and then took the dog for a walk. After that, I had a bath. 🌅🛁\n\n"
     "I went to school, rode my bike there. When I came back home, I brushed my teeth and washed the car. \n\n"
     "Then, I read a book and listened to music while doing chores. 📚🎶\n\n"
-    "Later, I took the bus to the store and did some shopping. When I got home, I dressed up and had a pleasant meal with my family. "
+    "Later, I took the bus to the store and did some shopping. When I got home, I got dressed and had a nice meal with my family. "
     "After dinner, I cleaned the house and watered the plants. 🛍️🍽️\n\n"
     "Before going to bed, I combed my hair, tidied up my room, and took out the trash. Finally, I took a short break to relax. 😌💤\n\n"
     "That's how my day went, with simple tasks and routines that make up my everyday life. 🌟🔄 I hope you had a great day! 😊🌈`,
@@ -23,7 +23,7 @@ const casaLargos = [
   // dos
 
   [
-    `Today was a busy day! In the morning, I woke up early and cleaned the kitchen. 🧽 After that, I swept the floor to keep it tidy. 🧹 Later, I mopped the floor because it got a bit dirty. 🛁
+    `Today it was a busy day! In the morning, I woke up early and cleaned the kitchen. 🧽 After that, I swept the floor to keep it tidy. 🧹 Later, I mopped the floor because it got a bit dirty. 🛁
 
     Around noon, I cooked dinner for my family. 🍲 I baked some cookies in the afternoon. 🍪 After enjoying the cookies, I organized my closet for a neat look. 👚
     
