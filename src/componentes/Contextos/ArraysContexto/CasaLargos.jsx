@@ -44,13 +44,8 @@ const casaLargos = [
     
     ¡Fue un día productivo y me siento satisfecho/a con todas las cosas que logré!
     `
-  ],
-
-  // tres
-
-  [
-
   ]
+  
 
 ]
 
