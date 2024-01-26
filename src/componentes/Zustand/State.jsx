@@ -8,6 +8,8 @@ const useStore = create((set)=>({
   changeVisible: (visible) => set({visible}),
   notepad: false,
   changeNotepad: (notepad) => set({notepad}),
+  tiempos : false,
+  changeTiempos: (tiempos) => set({tiempos}),
 }))
 
 export default useStore
