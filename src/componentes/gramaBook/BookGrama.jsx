@@ -4,6 +4,8 @@ import Button from "../general/Button";
 // import ListaPrincipal from "../poliglota/level1/ListaPrincipal";
 import ListaPrincipal from "../general/ListaPrincipal";
 import useStore from "../Zustand/State";
+import Basico from "./niveles/Basico/Basico";
+
 
 function BookGrama() {
   const { visible } = useStore();
@@ -13,7 +15,10 @@ function BookGrama() {
   return (
 
       <div className={`${visible === "grama" ? "flex" : "hidden"}  gap-1 flex-wrap justify-center` }>
-        <Button
+        
+        <Basico />
+        
+        {/* <Button
           texto={"presente continuo"}
           list={ListaPrincipal.presentContinuous}
         ></Button>
@@ -33,8 +38,9 @@ function BookGrama() {
         <Button
           texto={"past continuos"}
           list={ListaPrincipal.pastContinuous}
-        ></Button>
-        <Button
+        ></Button> */}
+        
+        {/* <Button
           texto={"present perfect"}
           list={ListaPrincipal.presentPerfect}
         ></Button>
@@ -45,7 +51,7 @@ function BookGrama() {
         <Button
           texto={"present perf&past2"}
           list={ListaPrincipal.presentPerfectAndPastTwo}
-        ></Button>
+        ></Button> */}
       </div>
     
   );
