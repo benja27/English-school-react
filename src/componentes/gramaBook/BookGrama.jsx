@@ -1,22 +1,23 @@
 import { useState } from "react";
-
 import Button from "../general/Button";
-// import ListaPrincipal from "../poliglota/level1/ListaPrincipal";
 import ListaPrincipal from "../general/ListaPrincipal";
 import useStore from "../Zustand/State";
 import Basico from "./niveles/Basico/Basico";
-
+import Intermedio from "./niveles/Intermedio/Intermedio";
+import Avanzado from "./niveles/Avanzado/Avanzado";
 
 function BookGrama() {
   const { visible } = useStore();
-
-
 
   return (
 
       <div className={`${visible === "grama" ? "flex" : "hidden"}  gap-1 flex-wrap justify-center` }>
         
-        <Basico />
+        <div className="flex flex-col gap-4" >
+          <Basico />
+          <Intermedio />
+          <Avanzado />
+        </div>
         
         {/* <Button
           texto={"presente continuo"}
