@@ -8,7 +8,7 @@ function Tiempos() {
 
   return (
     <div className='mt-3' >
-      <h1>tiempos</h1>
+      {/* <h1>tiempos</h1> */}
     </div>
   )
 }
