@@ -1,0 +1,35 @@
+// 67 Countable and Uncountable 1
+
+const countable = [
+    ['I eat a banana every day. 🍌🥣', 'Como un plátano todos los días. 🍌🥣'],
+    ['I like bananas. 🍌❤️', 'Me gustan los plátanos. 🍌❤️'],
+    ['I eat rice every day. 🍚🥢', 'Como arroz todos los días. 🍚🥢'],
+    ['I like rice. 🍚❤️', 'Me gusta el arroz. 🍚❤️'],
+    ['Kate was singing a song. 🎤🎶', 'Kate estaba cantando una canción. 🎤🎶'],
+    ['There’s a nice beach near here. 🏖️🌊', 'Hay una bonita playa cerca de aquí. 🏖️🌊'],
+    ['Do you have a $10 bill? 💵💰', '¿Tienes un billete de $10? 💵💰'],
+    ['It wasn’t your fault. It was an accident. ⚠️🤷‍♂️', 'No fue tu culpa. Fue un accidente. ⚠️🤷‍♂️'],
+    ['There are no batteries in the radio. 🔋📻', 'No hay pilas en la radio. 🔋📻'],
+    ['We don’t have enough cups. 🥤❌', 'No tenemos suficientes tazas. 🥤❌'],
+    ['Kate was listening to music. 🎧👂', 'Kate estaba escuchando música. 🎧👂'],
+    ['There’s sand in my shoes. 🏖️👞', 'Hay arena en mis zapatos. 🏖️👞'],
+    ['Do you have any money? 💰❓', '¿Tienes dinero? 💰❓'],
+    ['It wasn’t your fault. It was bad luck. 🍀🤷‍♂️', 'No fue tu culpa. Fue mala suerte. 🍀🤷‍♂️'],
+    ['There is no electricity in this house. 💡🏠', 'No hay electricidad en esta casa. 💡🏠'],
+    ['We don’t have enough water. 💧❌', 'No tenemos suficiente agua. 💧❌'],
+    ['I want a banana. 🍌😊', 'Quiero un plátano. 🍌😊'],
+    ['There’s been an accident. ⚠️😞', 'Ha habido un accidente. ⚠️😞'],
+    ['Accidents can be prevented. ⚠️🛑', 'Los accidentes pueden prevenirse. ⚠️🛑'],
+    ['There’s blood on your shirt. 💉👕', 'Hay sangre en tu camisa. 💉👕'],
+    ['Can you hear music? 🎶👂', '¿Puedes oír música? 🎶👂'],
+    ['We sang some songs. 🎤🎵', 'Cantamos algunas canciones. 🎤🎵'],
+    ['Did you buy any apples? 🍏🛒', '¿Compraste algunas manzanas? 🍏🛒'],
+    ['We didn’t take many pictures. 📸❌', 'No tomamos muchas fotos. 📸❌'],
+    ['I have a few things to do. 📝🤔', 'Tengo algunas cosas que hacer. 📝🤔'],
+    ['We listened to some music. 🎵👂', 'Escuchamos algo de música. 🎵👂'],
+    ['Did you buy any apple juice? 🍎🥤', '¿Compraste jugo de manzana? 🍎🥤'],
+    ['We didn’t do much shopping. 🛍️❌', 'No hicimos muchas compras. 🛍️❌'],
+    ['I have little work to do. 👷‍♂️📉', 'Tengo poco trabajo que hacer. 👷‍♂️📉'],
+  ];
+  
+export default countable;
