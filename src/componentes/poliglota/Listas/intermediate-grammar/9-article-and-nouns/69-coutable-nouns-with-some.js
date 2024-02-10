@@ -1,0 +1,38 @@
+// 69 Countable Nouns with a/and and some
+
+const countableNounsWithSome = [
+    ['Goodbye! have a nice evening. 👋🌆', '¡Adiós! que tengas una buena tarde. 👋🌆'],
+    ['Do you need an umbrella? ☂️🌧️', '¿Necesitas un paraguas? ☂️🌧️'],
+    ['She never wears a hat. 🎩🚫', 'Ella nunca usa sombrero. 🎩🚫'],
+    ['Be careful of the dog. 🐕⚠️', 'Ten cuidado con el perro. 🐕⚠️'],
+    ['What a beautiful day! ☀️😍', '¡Qué hermoso día! ☀️😍'],
+    ['I’ve got a headache. 💆‍♂️😩', 'Tengo dolor de cabeza. 💆‍♂️😩'],
+    ['That’s a nice table. 🪑👌', 'Esa es una bonita mesa. 🪑👌'],
+    ['Those are nice chairs. 🪑👍', 'Esas son sillas bonitas. 🪑👍'],
+    ['A dog is an animal. 🐶🦴', 'Un perro es un animal. 🐶🦴'],
+    ['Dogs are animals. 🐕🐾', 'Los perros son animales. 🐕🐾'],
+    ['I’m an optimist. 😊🌈', 'Soy optimista. 😊🌈'],
+    ['We’re optimists. 😄🌟', 'Somos optimistas. 😄🌟'],
+    ["Tim's father is a doctor. 👨‍⚕️💼", 'El padre de Tim es médico. 👨‍⚕️💼'],
+    ['Most of my friends are students. 🎓👫', 'La mayoría de mis amigos son estudiantes. 🎓👫'],
+    ['Are you a good driver? 🚗🤔', '¿Eres un buen conductor? 🚗🤔'],
+    ['Are they good students? 📚👍', '¿Son buenos estudiantes? 📚👍'],
+    ['Jill is a really nice person. 👩‍🦰😊', 'Jill es una persona realmente agradable. 👩‍🦰😊'],
+    ['Jill’s parents are really nice people. 👨‍👩‍👧‍👦🙂', 'Los padres de Jill son personas realmente agradables. 👨‍👩‍👧‍👦🙂'],
+    ['What a pretty dress! 👗🤩', '¡Qué bonito vestido! 👗🤩'],
+    ['What awful shoes! 👞😖', '¡Qué zapatos horribles! 👞😖'],
+    ['Jack has a long nose. 👃📏', 'Jack tiene una nariz larga. 👃📏'],
+    ['Jack has blue eyes. 👀💙', 'Jack tiene ojos azules. 👀💙'],
+    ['Sandra is a nurse. 👩‍⚕️💉', 'Sandra es enfermera. 👩‍⚕️💉'],
+    ['Would you like to be an English teacher? 📚🍎', '¿Te gustaría ser profesor de inglés? 📚🍎'],
+    ['I’ve seen some good movies recently. 🍿🎬', 'He visto algunas buenas películas recientemente. 🍿🎬'],
+    ['Some friends of mine are coming to stay this weekend. 🏠👫', 'Algunos amigos míos vienen a quedarse este fin de semana. 🏠👫'],
+    ['I need some new sunglasses. 🕶️😎', 'Necesito unos nuevos lentes de sol. 🕶️😎'],
+    ['I love bananas. 🍌😍', 'Me encantan los plátanos. 🍌😍'],
+    ['My aunt is a writer. She writes books. 📚✍️', 'Mi tía es escritora. Ella escribe libros. 📚✍️'],
+    ['There are some eggs in the refrigerator if you’re hungry. 🥚🍳', 'Hay unos huevos en el refrigerador si tienes hambre. 🥚🍳'],
+    ['Some children learn very quickly. 👦📚', 'Algunos niños aprenden muy rápido. 👦📚'],
+    ['Tomorrow there will be rain in some places, but most of the country will be dry. 🌧️🌎', 'Mañana habrá lluvia en algunos lugares, pero la mayor parte del país estará seca. 🌧️🌎'],
+  ];  
+
+export default countableNounsWithSome;
