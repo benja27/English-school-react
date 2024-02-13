@@ -2,6 +2,10 @@ import React from 'react'
 import PresentAndPast from './PresentAndPast'
 import PresentPerfectAndPast from './PresentPerfectAndPast'
 import Future from './Future'
+import Modals from './Modals'
+import IFAndWish from './IfAndWish'
+import Pasive from './Pasive'
+import ReportedSpeech from './ReportedSpeech'
 
 
 function Basico() {
@@ -12,6 +16,10 @@ function Basico() {
             <PresentAndPast     />
             <PresentPerfectAndPast />
             <Future />
+            <Modals />
+            <IFAndWish />
+            <Pasive />
+            <ReportedSpeech />
         </div>
     </div>
   )

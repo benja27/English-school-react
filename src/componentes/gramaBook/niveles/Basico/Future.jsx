@@ -19,16 +19,32 @@ function Future() {
 
         <div className={`${visible ? "flex flex-wrap gap-1" : "hidden"}`} >
             <Button
-            texto={"present perfect"}
-            list={ListaPrincipal.presentPerfect}
+            texto={"present tenses"}
+            list={ListaPrincipal.presentTenses }
             ></Button>
             <Button
-            texto={"present perf&past"}
-            list={ListaPrincipal.presentPerfectAndPast}
+            texto={"I am going to do"}
+            list={ListaPrincipal.iamGoingToDo}
             ></Button>
             <Button
-            texto={"present perf&past2"}
-            list={ListaPrincipal.presentPerfectAndPastTwo}
+            texto={"will"}
+            list={ListaPrincipal.will1}
+            ></Button>
+            <Button
+            texto={"will2"}
+            list={ListaPrincipal.will2}
+            ></Button>
+            <Button
+            texto={"i will and I am going to"}
+            list={ListaPrincipal.iwillAndIamGoingTo}
+            ></Button>
+            <Button
+            texto={"will be doing"}
+            list={ListaPrincipal.willBeDoing}
+            ></Button>
+            <Button
+            texto={"when I do"}
+            list={ListaPrincipal.whenIdo}
             ></Button>
         </div>
       
