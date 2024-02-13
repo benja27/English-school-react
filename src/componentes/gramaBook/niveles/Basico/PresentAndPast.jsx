@@ -26,13 +26,13 @@ function PresentAndPast() {
         ></Button>
         <Button
           texto={"simple Present & continuos 1"}
-          list={ListaPrincipal.prese_cont_and_simple_present}
+          list={ListaPrincipal.presentContinuousAndSimplePresent}
         ></Button>
         <Button
           texto={"simple Present & continuos 2"}
           list={ListaPrincipal.presentContinuousAndSimplePresent2}
         ></Button>
-        <Button texto={"simple past"} list={ListaPrincipal.simplePast}></Button>
+        <Button texto={"simple past"} list={ListaPrincipal.simplePast }></Button>
         <Button
           texto={"past continuos"}
           list={ListaPrincipal.pastContinuous}

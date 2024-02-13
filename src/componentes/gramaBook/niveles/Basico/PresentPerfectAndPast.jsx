@@ -31,6 +31,38 @@ function PresentPerfectAndPast() {
             texto={"present perf&past2"}
             list={ListaPrincipal.presentPerfectAndPastTwo}
             ></Button>
+            <Button
+            texto={"present perfect continuos"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"present perfect continuos and simple"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"present how long have you"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"for and since"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"Past perfect"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"past perfect continuos"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"have and have got"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
+            <Button
+            texto={"used to"}
+            list={ListaPrincipal.presentPerfectAndPastTwo}
+            ></Button>
         </div>
       
     </div>

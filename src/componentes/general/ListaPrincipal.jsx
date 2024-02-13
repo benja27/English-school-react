@@ -4,21 +4,59 @@ import presentContinuousAndSimplePresent from "../gramaBook/Listas/intermediate-
 import presentContinuousAndSimplePresent2 from "../gramaBook/Listas/intermediate-grammar/1-present-and-past/4-present-continuous-and-simple-present-2"
 import simplePast from "../gramaBook/Listas/intermediate-grammar/1-present-and-past/5-simple-past"
 import pastContinuous from "../gramaBook/Listas/intermediate-grammar/1-present-and-past/6-past-continuous"
-import presentPerfect from "../gramaBook/Listas/intermediate-grammar/2-present-perfect-and-past/7-present-perfect"
-import presentPerfectAndPast from "../gramaBook/Listas/intermediate-grammar/2-present-perfect-and-past/8-present-perfect-and-past"
-import presentPerfectAndPastTwo from "../gramaBook/Listas/intermediate-grammar/2-present-perfect-and-past/9-present-perfect-and-past-2"
+import { PresentPerfect, presentPerfectAndPast, presentPerfectAndPast2, PresentPerfectAndSimple, presentPerfectCountinous, howLongHaveYouBeen, ForAndSince, pastPerfect, PastPerfectContinous, haveAndHaveGot, UsedTo } from "../gramaBook/Listas/intermediate-grammar/2-present-perfect-and-past/present_perfect-el-bueno"
+import { presentTenses, iamGoingToDo, will1, will2, iwillAndIamGoingTo, willBeDoing, whenIdo } from "../gramaBook/Listas/intermediate-grammar/18-Future/future" 
+import { canCouldAndBeAbleTo, couldAndCouldHaveDone, must, mayAndMight1, mayAndMight2, haveToAndMust, Should, subjuntive, hadBetter, would, can_could_would } from "../gramaBook/Listas/intermediate-grammar/25-Modals/modals"  
+import { ifido_and_ifidid, ifiknew_iwhishiknew, ifIhadknown, wish } from "../gramaBook/Listas/intermediate-grammar/36-if-I-do/ifIdo"
+import { pasive, itissaidthat, havesomethingdone } from "../gramaBook/Listas/intermediate-grammar/40-passive/pasive" 
+import reportedSpeech from "../gramaBook/Listas/intermediate-grammar/45-reported-speech/reportedSpeech"
 
 
 const ListaPrincipal = {  
-  presentContinuous: presentContinuous,
+  presentContinuous,
   simplePresent,
   presentContinuousAndSimplePresent,
   presentContinuousAndSimplePresent2,
   simplePast,
   pastContinuous,
-  presentPerfect,
+  PresentPerfect,
   presentPerfectAndPast,
-  presentPerfectAndPastTwo
+  presentPerfectAndPast2,
+  PresentPerfectAndSimple,
+  presentPerfectCountinous,
+  howLongHaveYouBeen,
+  ForAndSince,
+  pastPerfect,
+  PastPerfectContinous,
+  haveAndHaveGot,
+  UsedTo,
+  presentTenses,
+  iamGoingToDo,
+  will1,
+  will2,
+  iwillAndIamGoingTo,
+  willBeDoing,
+  whenIdo,
+  canCouldAndBeAbleTo,
+  couldAndCouldHaveDone,
+  must,
+  mayAndMight1,
+  mayAndMight2,
+  haveToAndMust,
+  Should,
+  subjuntive,
+  hadBetter,
+  would,
+  can_could_would,
+  ifido_and_ifidid,
+  ifiknew_iwhishiknew,
+  ifIhadknown,
+  wish,  
+  pasive,
+  itissaidthat,
+  havesomethingdone,
+  reportedSpeech
+  
 }
 
 export default ListaPrincipal
