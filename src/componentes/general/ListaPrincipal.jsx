@@ -10,7 +10,7 @@ import { canCouldAndBeAbleTo, couldAndCouldHaveDone, must, mayAndMight1, mayAndM
 import { ifido_and_ifidid, ifiknew_iwhishiknew, ifIhadknown, wish } from "../gramaBook/Listas/intermediate-grammar/36-if-I-do/ifIdo"
 import { pasive, itissaidthat, havesomethingdone } from "../gramaBook/Listas/intermediate-grammar/40-passive/pasive" 
 import reportedSpeech from "../gramaBook/Listas/intermediate-grammar/45-reported-speech/reportedSpeech"
-
+import { questions, auxiliaryVerbs, tagQuestions } from "../gramaBook/Listas/intermediate-grammar/47-questions-auxiliary-verbs/questionsAuxiliaryverbos" 
 
 const ListaPrincipal = {  
   presentContinuous,
@@ -55,7 +55,12 @@ const ListaPrincipal = {
   pasive,
   itissaidthat,
   havesomethingdone,
-  reportedSpeech
+  reportedSpeech,
+  // intermedio
+  questions,
+  auxiliaryVerbs,
+  tagQuestions,
+
   
 }
 
