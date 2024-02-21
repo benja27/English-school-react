@@ -8,7 +8,7 @@ function Casa() {
   return (
     <div className={`${ visible === "casa" ? "flex" : "hidden" }`} >
     
-      <div className="w-full flex gap-2 items-start justify-around" >
+      <div className="w-full flex gap-2 items-start justify-around flex-wrap" >
         <Button texto={"acciones"} list={ListasContexto.verbosCasa} />
         <Button texto={"frs2"} list={ListasContexto.FrasesCasa} />
 
