@@ -9,7 +9,7 @@ function Navbar() {
 
   console.log(visible)
   return (
-    <div className='bg-black py-2 text-white flex flex-col items-center gap-3 justify-center ' >
+    <nav className='bg-black py-2 text-white flex flex-col items-center gap-3 justify-center ' >
       <div className="flex gap-3" >
         <h3 className=" cursor-pointer " onClick={()=> changeNotepad(!notepad)} >Notepad</h3>
         <h4 onClick={()=>changeVisible("grama")} className='cursor-pointer' >Grama Book</h4>
@@ -20,7 +20,7 @@ function Navbar() {
       <Contexto isvisible={menu} />
 
       
-    </div>
+    </nav>
   )
 }
 
