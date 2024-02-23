@@ -11,14 +11,14 @@ function App() {
   console.log(visible)
 
   return (
-    <div>
+    <>
+    <header>
       <Navbar />
-      <Notepad/>
+      <Notepad />
+    </header>
       <MidElement/>
       {/* <BookGrama/>  */}
-    </div>
-
-    
+    </>
   )
 }
 
