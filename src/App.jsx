@@ -16,8 +16,10 @@ function App() {
       <Navbar />
       <Notepad />
     </header>
+    <main>
       <MidElement/>
       {/* <BookGrama/>  */}
+    </main>
     </>
   )
 }
