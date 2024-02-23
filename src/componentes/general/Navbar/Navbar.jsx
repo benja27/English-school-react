@@ -10,16 +10,13 @@ function Navbar() {
   console.log(visible)
   return (
     <nav className='bg-black py-2 text-white flex flex-col items-center gap-3 justify-center ' >
-      <div className="flex gap-3" >
-        <h3 className=" cursor-pointer " onClick={()=> changeNotepad(!notepad)} >Notepad</h3>
-        <h4 onClick={()=>changeVisible("grama")} className='cursor-pointer' >Grama Book</h4>
-        <h4 onClick={()=>setMenu("contexto")}  className="cursor-pointer" >Contexto</h4>
-        <h3>Tiempos</h3>
-      </div>
-      
+      <ul className="flex gap-3" >
+        <li className=" cursor-pointer " onClick={()=> changeNotepad(!notepad)} >Notepad</li>
+        <li onClick={()=>changeVisible("grama")} className='cursor-pointer' >Grama Book</li>
+        <li onClick={()=>setMenu("contexto")}  className="cursor-pointer" >Contexto</li>
+        <li>Tiempos</li>
+      </ul>
       <Contexto isvisible={menu} />
-
-      
     </nav>
   )
 }
