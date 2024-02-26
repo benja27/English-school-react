@@ -10,14 +10,6 @@ import Casa from "../../Contextos/Casa"
 import Tiempos from "../Tiempos"
 
 function MidElement() {
-  const [width, setWidth] = useState(window.innerWidth)
-
-  window.addEventListener("resize", () => {
-    setWidth(window.innerWidth)
-  })
-
-  console.log(width)
-
   return (
     <div className="flex flex-col sm:flex-row items-center sm:items-start bg-slate-300 min-h-screen  gap-2 justify-around items-start p-7">
       
