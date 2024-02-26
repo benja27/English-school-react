@@ -19,7 +19,7 @@ function MidElement() {
   console.log(width)
 
   return (
-    <div className={`${width < 600 ? "flex-col items-center " : ""} flex bg-slate-300 min-h-screen  gap-2 justify-around items-start p-7`}>
+    <div className="flex flex-col sm:flex-row items-center sm:items-start bg-slate-300 min-h-screen  gap-2 justify-around items-start p-7">
       
       <PreguntayRespuesta/>
 
