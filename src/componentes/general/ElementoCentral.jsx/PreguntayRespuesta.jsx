@@ -8,6 +8,7 @@ function PreguntayRespuesta() {
   const [element, setElement] = useState("");
   // console.log(element)
   const [respuesta, setRespuesta] = useState("");
+  const [isItemSelected, setIsItemSelected] = useState(false);
 
   let r;
   function randomN(min, max) {
@@ -16,6 +17,7 @@ function PreguntayRespuesta() {
   }
 
   const getRandomElement = () => {
+    setIsItemSelected(false);
     let n1 = randomN(0, lista.length - 1);
     // console.log(n1)
     let n2 = randomN(0, lista[n1].length - 1);
@@ -23,6 +25,8 @@ function PreguntayRespuesta() {
     let n3 = lista[n1][n2];
     // console.log(n1,n2,n3)
     setElement(n3);
+    //will set state only if there is an item selected
+    setIsItemSelected(true);
   };
 
 
@@ -37,6 +41,7 @@ function PreguntayRespuesta() {
           >
             Random Sentence
           </button>
+          {isItemSelected ? null: (<p className="text-xl font-medium text-center p-3 text-red-600">Select an Item to Start</p>) }
 
           <p className="text-xl font-medium text-center p-3">
             {" "}
