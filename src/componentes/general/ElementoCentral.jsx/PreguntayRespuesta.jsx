@@ -32,7 +32,7 @@ function PreguntayRespuesta() {
         <div className="text-center flex flex-col">
 
           <button
-            className="bg-amber-400 text-xl font-bold py-2"
+            className="bg-amber-400 hover:bg-amber-600 text-xl font-bold py-2"
             onClick={getRandomElement}
           >
             Random Sentence
