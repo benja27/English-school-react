@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import BtnRed from '../components/BtnRed';
 
 const SplashScreen = ({ visibility, setVisibility }) => {
     const handleClick = () => {
@@ -14,11 +15,7 @@ const SplashScreen = ({ visibility, setVisibility }) => {
         We are glad to have you here. We hope you enjoy your stay and learn a
         lot of English.
       </p>
-      <button
-        onClick={handleClick}
-      >
-        Continue
-      </button>
+      <BtnRed text='Continue' handleClick={handleClick}/>
     </section>
   );
 };
