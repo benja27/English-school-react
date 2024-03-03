@@ -4,7 +4,8 @@ const BtnRed = ({ text, handleClick }) => {
   return (
     <button 
       onClick={handleClick} 
-      className="btn-red">
+      id='btn-red'
+      className="bg-red-600 hover:bg-red-800 text-white p-2 rounded">
         {text}
     </button>
   );
