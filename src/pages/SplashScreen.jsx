@@ -8,9 +8,9 @@ const SplashScreen = ({ visibility, setVisibility }) => {
 
   return (
     <section className='absolute h-screen w-screen bg-slate-300 flex items-center justify-center
-    flex-col gap-2
+    flex-col gap-2 p-4
     '>
-      <h2 className='text-4xl font-bold p-2 m-2'>Welcome to English School!</h2>
+      <h2 className='text-4xl font-bold  text-center'>Welcome to English School!</h2>
       <p>
         We are glad to have you here. We hope you enjoy your stay and learn a
         lot of English.
