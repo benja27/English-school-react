@@ -1,0 +1,38 @@
+// 118 At/on/in (Time)
+
+const atOnInTime = [
+    ['They arrived at 5:00. ⏰👫', 'Llegaron a las 5:00. ⏰👫'],
+    ['They arrived on Friday. 📅👫', 'Llegaron el viernes. 📅👫'],
+    ['They arrived in October. 🗓️👫', 'Llegaron en octubre. 🗓️👫'],
+    ['They arrived in 1968. 📅👫', 'Llegaron en 1968. 📅👫'],
+    ['at 11:45 ⏰', 'a las 11:45 ⏰'],
+    ['at midnight 🌙', 'a medianoche 🌙'],
+    ['at lunchtime 🍴⏰', 'a la hora del almuerzo 🍴⏰'],
+    ['at sunset 🌅', 'al atardecer 🌅'],
+    ['on Friday 📅', 'el viernes 📅'],
+    ['on May 16, 1999 📅', 'el 16 de mayo de 1999 📅'],
+    ['on Christmas Day 🎄📅', 'el día de Navidad 🎄📅'],
+    ['on my birthday 🎂📅', 'en mi cumpleaños 🎂📅'],
+    ['on the weekend 📅', 'el fin de semana 📅'],
+    ['in October 🗓️', 'en octubre 🗓️'],
+    ['in 1988 📅', 'en 1988 📅'],
+    ['in the 18th century 📅', 'en el siglo XVIII 📅'],
+    ['in the past ⏳', 'en el pasado ⏳'],
+    ['in the Middle Ages 🏰', 'en la Edad Media 🏰'],
+    ['I don’t like going out at night. 🌙🚫', 'No me gusta salir por la noche. 🌙🚫'],
+    ['Do you give each other presents at Christmas? 🎁🎄', '¿Se dan regalos en Navidad? 🎁🎄'],
+    ['Mr. Brown is busy at this time. 💼⏰', 'El Sr. Brown está ocupado en este momento. 💼⏰'],
+    ['Liz and I arrived at the same time. 👭⏰', 'Liz y yo llegamos al mismo tiempo. 👭⏰'],
+    ['I’ll see you in the morning. ☀️👀', 'Te veré por la mañana. ☀️👀'],
+    ['Do you work in the evenings? 💼🌙', '¿Trabajas por las tardes? 💼🌙'],
+    ['I’ll see you on Friday morning. 📅☀️👀', 'Te veré el viernes por la mañana. 📅☀️👀'],
+    ['Do you work on Saturday evenings? 💼📅🌙', '¿Trabajas los sábados por la noche? 💼📅🌙'],
+    ['I’ll see you next Friday. 📅👀', 'Te veré el próximo viernes. 📅👀'],
+    ['They got married last March. 💍📅', 'Se casaron el pasado marzo. 💍📅'],
+    ['The train will be leaving in a few minutes. 🚆⏰', 'El tren saldrá en unos minutos. 🚆⏰'],
+    ['Andy has left town. He’ll be back in a week. 🏙️👋', 'Andy ha dejado la ciudad. Estará de vuelta en una semana. 🏙️👋'],
+    ['She’ll be here in a moment. 👩👀', 'Ella estará aquí en un momento. 👩👀'],
+    ['I learned to drive in four weeks. 🚗📅', 'Aprendí a conducir en cuatro semanas. 🚗📅'],
+  ];  
+
+export default atOnInTime;
