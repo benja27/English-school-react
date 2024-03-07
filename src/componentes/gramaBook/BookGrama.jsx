@@ -11,7 +11,7 @@ function BookGrama() {
 
   return (
 
-      <div className={`${visible === "grama" ? "flex" : "hidden"}  gap-1 flex-wrap justify-center
+      <div id="book-grama" className={`${visible === "grama" ? "flex" : "hidden"}  gap-1 flex-wrap justify-center
       flex-col gap-4 content-center
       ` }>
           <Basico />

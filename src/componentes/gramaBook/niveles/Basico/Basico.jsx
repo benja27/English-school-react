@@ -10,7 +10,7 @@ import ReportedSpeech from './ReportedSpeech'
 
 function Basico() {
   return (
-    <div>
+    <div id='basico'>
         <h1 className='text-center text-2xl font-semibold cursor-pointer bg-emerald-700 text-orange-100'>Basic</h1>
         <div>
             <PresentAndPast     />
