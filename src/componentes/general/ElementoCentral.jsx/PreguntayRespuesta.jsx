@@ -35,7 +35,7 @@ function PreguntayRespuesta() {
   return (
     <div 
       id="question-and-answer-panel"
-      className="asis-[450px] min-w-[30%] p-3">
+      className="asis-[450px] p-3">
         <div className="text-center flex flex-col">
 
           <button

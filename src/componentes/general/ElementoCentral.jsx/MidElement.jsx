@@ -17,7 +17,7 @@ function MidElement() {
       <PreguntayRespuesta/>
       <div 
         id="filters-panel"
-        className=" w-full flex flex-col" >
+        className="flex flex-col" >
           <BookGrama/>
           <Casa/>
           <div>
