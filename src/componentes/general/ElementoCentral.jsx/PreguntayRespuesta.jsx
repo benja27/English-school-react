@@ -1,5 +1,6 @@
 import { useState } from "react";
 import useStore from "../../Zustand/State";
+import BtnBlue from "../../../components/BtnBlue";
 
 function PreguntayRespuesta() {
 
@@ -32,7 +33,9 @@ function PreguntayRespuesta() {
 
 
   return (
-    <div className="asis-[450px] min-w-[30%] p-3">
+    <div 
+      id="question-and-answer-panel"
+      className="asis-[450px] p-3">
         <div className="text-center flex flex-col">
 
           <button
@@ -57,13 +60,9 @@ function PreguntayRespuesta() {
 
           <p className="text-xl font-medium text-center p-3">{respuesta}</p>
 
-          <button className="bg-blue-700 text-white py-2 rounded-md hover:scale-110"    >
-            Mostrar todos los elementos
-          </button>
+          <BtnBlue text="Mostrar todos los elementos" />
           <br />
-          <button className="bg-blue-700 text-white py-2 rounded-md hover:scale-110"    >
-            Mostrar vocabulario
-          </button>
+          <BtnBlue text="Mostrar vocabulario" />
 
         </div>
       </div>

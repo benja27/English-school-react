@@ -6,15 +6,15 @@ function Contexto( {isvisible} ) {
 
 
   return (    
-    <div className={`${isvisible === "contexto" ? " flex gap-3":"hidden"} `} >
-        <h3 
+    <ul className={`${isvisible === "contexto" ? " flex gap-3":"hidden"} `} >
+        <li 
           className="cursor-pointer hover:scale-125"
           onClick={()=> changeVisible("casa")}
-            >Casa</h3>
-        <h3 className="cursor-pointer hover:scale-125"  >Trabajo</h3>
-        <h3 className="cursor-pointer hover:scale-125"  >Casa</h3>
-        <h3 className="cursor-pointer hover:scale-125"  >Casa</h3>        
-    </div>
+            >Casa</li>
+        <li className="cursor-pointer hover:scale-125"  >Trabajo</li>
+        <li className="cursor-pointer hover:scale-125"  >Casa</li>
+        <li className="cursor-pointer hover:scale-125"  >Casa</li>        
+    </ul>
   )
 }
 

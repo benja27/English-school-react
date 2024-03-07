@@ -12,9 +12,12 @@ function App() {
   const [splashVisibility, setSplashVisibility] = useState(true);
 
   return (
-    <div>
+    <>
+    <header>
       <Navbar />
-      <Notepad/>
+      <Notepad />
+    </header>
+    <main>
       {splashVisibility && (
         <SplashScreen
           visibility={splashVisibility}
@@ -23,7 +26,8 @@ function App() {
       )}
       <MidElement/>
       {/* <BookGrama/>  */}
-    </div>
+    </main>
+    </>
   )
 }
 

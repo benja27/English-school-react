@@ -11,14 +11,12 @@ function BookGrama() {
 
   return (
 
-      <div className={`${visible === "grama" ? "flex" : "hidden"}  gap-1 flex-wrap justify-center` }>
-        
-        <div className="flex flex-col gap-4" >
+      <div id="book-grama" className={`${visible === "grama" ? "flex" : "hidden"}  gap-1 flex-wrap justify-center
+      flex-col gap-4 content-center
+      ` }>
           <Basico />
           <Intermedio />
           <Avanzado />
-        </div>
-        
         {/* <Button
           texto={"presente continuo"}
           list={ListaPrincipal.presentContinuous}
